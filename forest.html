@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to the Wilderness!</title>
-<link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
-<script src="scripts/myscripts.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Wilderness!</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/myscripts.js"></script>
 </head>
 <body>
+    <header>
+        <h1>Welcome to the Great Outdoors!</h1>
+        <div id="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
 
-<h1>Explore the Forest</h1>
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="mountain.html">Climb the Mountain</a>
+        <a href="forest.html">Wander the Forest</a>
+        <a href="falls.html">See the Falls</a>
+        <a href="ferry.html">Ride the Ferry</a>
+        <a href="lake.html">Walk Around the Lake</a>
+        <a href="park.html">Read in the Park</a>
+    </nav>
 
-<img src = "images/forest.jpg" alt="Rampart Ridge" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Level Up!</figcaption>
+    <main class="content-main">
+        <h2>Explore the Forest</h2>
+        <img src="images/forest.jpg" alt="Rampart Ridge" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
+        <figcaption>Level Up!</figcaption>
+        <p id="alttext" style="font-size:30px"></p>
+    </main>
 
-<p id="alttext" style="font-size:50px"> <p>
-
-<ul>
-<li><a href="index.html">Table of Contents</a></li>
-</ul>
-
+    <footer>
+    <p>About Us: We are a team of four programmers (Quantis, Sami, Chris, Adam) as a part of the IT115 program taught at North Seattle College.
+       Our mission is to provide valuable resources and engaging content that encourages outdoor adventures, a sense of community, and promotes
+       environmental stewardship. Being based in the Seattle area, all of us got together and decided to use our programming knowledge and skills
+       to showcase the wonders and beauty that nature has to offer the world.</p>
+    <p>Contact Information: Email: info@greatoutdoors.com | Phone: (555) 123-4567</p>
+    <p>Social Media:
+        <b><img src="images/Instagram Logo.png" width="20" height="20" alt="Instagram Logo"> Instagram:</b> @greatoutdoors <br>
+        <b><img src="images/Twitter Logo.png" width="20" height="20" alt="Twitter Logo"> Twitter:</b> @great.outdoors <br>
+        <b><img src="images/YouTube Logo.png" width="20" height="20" alt="YouTube Logo"> YouTube:</b> @greatoutdoorsYT
+    </p>
+</footer>
 </body>
 </html>
