@@ -1,60 +1,69 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to the Great Outdoors!</title>
-    <link rel="stylesheet" type="text/css" href="styles/branchlevel.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/myscripts.js"></script>
 </head>
-
 <body>
-
-    <h1 style="color: #087c2b;">Around the Water's Edge</h2>
-        <div
-            style="font-family: Arial, sans-serif; max-width: 800px; line-height: 1.6; color: #333; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-
-            <h2 style="color: #087c2b;">Exploring Earth's Lakes</h2>
-
-            <p>Lakes are some of the most captivating natural features on our planet, offering diverse landscapes and
-                ecosystems
-                across the globe. <strong>Lake Baikal</strong> in Russia stands out as the world's deepest and oldest
-                freshwater
-                lake, containing an astounding 20% of the world's unfrozen freshwater reserve. In North America,
-                <strong>Lake
-                    Superior</strong> reigns as the largest freshwater lake by surface area, comparable in size to
-                Austria and
-                holding about 10% of the world's surface freshwater. Africa boasts <strong>Lake Victoria</strong>, the
-                continent's largest lake by area, shared by Tanzania, Uganda, and Kenya.</p>
-
-            <p>Europe is home to picturesque bodies of water like <strong>Lake Geneva</strong>, straddling Switzerland
-                and
-                France, known for its deep blue waters and surrounding mountains. In South America, <strong>Lake
-                    Titicaca</strong> holds the title of the highest navigable lake in the world, situated between Peru
-                and
-                Bolivia. Asia features the enormous <strong>Caspian Sea</strong>, which, despite its name, is actually
-                the
-                world's largest lake.</p>
-
-            <p>These lakes not only shape the geography of their regions but also play crucial roles in local
-                ecosystems,
-                supporting unique flora and fauna. Many, like Lake Baikal and Lake Tanganyika, are biodiversity
-                hotspots,
-                harboring species found nowhere else on Earth. From the waters of <strong>Crater Lake</strong> in
-                Oregon to the saline expanse of the <strong>Dead Sea</strong> between Israel and Jordan, lakes around
-                the world
-                continue to captivate and inspire with their beauty and ecological significance.</p>
+    <header>
+        <h1>Welcome to the Great Outdoors!</h1>
+        <div id="search-bar">
+            <input type="text" placeholder="Search...">
         </div>
+    </header>
+
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="mountain.html">Climb the Mountain</a>
+        <a href="forest.html">Wander the Forest</a>
+        <a href="falls.html">See the Falls</a>
+        <a href="ferry.html">Ride the Ferry</a>
+        <a href="lake.html">Walk Around the Lake</a>
+        <a href="park.html">Read in the Park</a>
+    </nav>
+
+    <main class="content-main">
+        <h2>Around the Water's Edge</h2>
+
+        <h3>Exploring Earth's Lakes</h3>
+        <p>Lakes are some of the most captivating natural features on our planet, offering diverse landscapes and ecosystems
+            across the globe. <strong>Lake Baikal</strong> in Russia stands out as the world's deepest and oldest freshwater
+            lake, containing an astounding 20% of the world's unfrozen freshwater reserve. In North America,
+            <strong>Lake Superior</strong> reigns as the largest freshwater lake by surface area, comparable in size to
+            Austria and holding about 10% of the world's surface freshwater. Africa boasts <strong>Lake Victoria</strong>, the
+            continent's largest lake by area, shared by Tanzania, Uganda, and Kenya.</p>
+
+        <p>Europe is home to picturesque bodies of water like <strong>Lake Geneva</strong>, straddling Switzerland and
+            France, known for its deep blue waters and surrounding mountains. In South America, <strong>Lake Titicaca</strong> holds
+            the title of the highest navigable lake in the world, situated between Peru and Bolivia. Asia features the enormous
+            <strong>Caspian Sea</strong>, which, despite its name, is actually the world's largest lake.</p>
+
+        <p>These lakes not only shape the geography of their regions but also play crucial roles in local ecosystems,
+            supporting unique flora and fauna. Many, like Lake Baikal and Lake Tanganyika, are biodiversity hotspots,
+            harboring species found nowhere else on Earth. From the waters of <strong>Crater Lake</strong> in Oregon to the saline
+            expanse of the <strong>Dead Sea</strong> between Israel and Jordan, lakes around the world continue to captivate
+            and inspire with their beauty and ecological significance.</p>
 
         <img src="images/lake.jpg" alt="Lake" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-        <figcaption>Don't fall In</figcaption>
+        <figcaption>Don't Fall In</figcaption>
 
-        <p id="alttext" style="font-size:50px">
-        <p>
+        <p id="alttext" style="font-size:30px"></p>
+    </main>
 
-        <ul>
-            <li><a href="index.html">Table of Contents</a></li>
-        </ul>
-
+   <footer>
+    <p>About Us: We are a team of four programmers (Quantis, Sami, Chris, Adam) as a part of the IT115 program taught at North Seattle College.
+       Our mission is to provide valuable resources and engaging content that encourages outdoor adventures, a sense of community, and promotes
+       environmental stewardship. Being based in the Seattle area, all of us got together and decided to use our programming knowledge and skills
+       to showcase the wonders and beauty that nature has to offer the world.</p>
+    <p>Contact Information: Email: info@greatoutdoors.com | Phone: (555) 123-4567</p>
+    <p>Social Media:
+        <b><img src="images/Instagram Logo.png" width="20" height="20" alt="Instagram Logo"> Instagram:</b> @greatoutdoors <br>
+        <b><img src="images/Twitter Logo.png" width="20" height="20" alt="Twitter Logo"> Twitter:</b> @great.outdoors <br>
+        <b><img src="images/YouTube Logo.png" width="20" height="20" alt="YouTube Logo"> YouTube:</b> @greatoutdoorsYT
+    </p>
+</footer>
 </body>
-
 </html>
